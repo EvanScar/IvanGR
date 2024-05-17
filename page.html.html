@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1> Перевод значения из узлов в км/ч</h1>
+Введите число узлов <input type="text" id="in_a">
+<button onclick="a()"> Расчитать </button>
+<script>
+function a() {
+var a = parseInt(document.getElementById("in_a").value);
+alert (a*1.852 + ' км/ч') ;
+}
+</script>
+</body>
+</html>
